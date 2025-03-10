@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'arial';
+}
+
+body{
+    background-color: rgb(223, 216, 201);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(182, 147, 58);
+    padding: 11px;
+    border-bottom: 5px solid;
+    border-color: rgb(143, 131, 100); 
+}
+
+header img{
+    width: 140px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(61, 52, 52);
+    margin: 15px;
+}
+
+.centro{
+    display: block;
+    margin: 0 auto;
+    width: 640px;
+}
+
+@media (max-width: 600px) {
+    .centro{
+        width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .centro{
+        width: 270px;
+    }
+}
+
+
