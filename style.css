@@ -28,7 +28,7 @@ header img{
 h1{
     text-align: center;
     color: rgb(61, 52, 52);
-    margin: 15px;
+    margin-top: 20px;
 }
 
 .container{
@@ -82,9 +82,66 @@ h1{
     opacity: 1;
 }
 
-@media (max-width: 768px) {
-    header{
-        border-radius: 0px 0px 5px 5px;
+.texto p{
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+   
+}
+
+.texto h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#blocos{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#blocos h2{
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.bloco1{
+    background-color: rgb(88, 71, 23);
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+}
+
+.bloco2{
+    background-color: rgb(182, 181, 138);
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+}
+
+.bloco3{
+    background-color: rgba(88, 87, 23, 0.651);
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(168, 165, 119);
+}
+
+@media (max-width: 500px) {
+
+    .bloco1{
+        margin-top: 30px;
     }
+    
+    #blocos{
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
