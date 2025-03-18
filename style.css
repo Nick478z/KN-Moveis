@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(223, 216, 201);
+    background-color: rgb(196, 188, 172);
 }
 
 header{
@@ -15,7 +15,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgb(182, 147, 58);
+    background-color: #b6933a;
     padding: 11px;
     border-bottom: 5px solid;
     border-color: rgb(143, 131, 100); 
@@ -86,6 +86,8 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
     align-items: center;
+    font-size: 18px;
+    font-weight: 480;
    
 }
 
@@ -99,42 +101,75 @@ h1{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: white;
+    
 }
 
 #blocos h2{
     text-align: center;
     margin: 5px;
     color: white;
+    font-weight: 700;
+
 }
 
 .bloco1{
-    background-color: rgb(88, 71, 23);
-    margin-top: 10px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 7px;
-}
-
-.bloco2{
-    background-color: rgb(182, 181, 138);
-    margin-top: 10px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 7px;
-}
-
-.bloco3{
-    background-color: rgba(88, 87, 23, 0.651);
+    background-color: #7a7550;
     margin-top: 10px;
     padding: 10px 10px 10px 10px;
     border-radius: 7px;
     border: 2px solid rgb(168, 165, 119);
 }
 
+.bloco2{
+    background-color: #69643f;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(168, 165, 119);
+}
+
+.bloco3{
+    background-color: #524f2e;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(168, 165, 119);
+}
+
+footer{
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #b6933a;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+
+.rodape img{
+    width: 60px;
+    margin-left: 10px;
+}
+
+.rodape a{
+    cursor: pointer;
+}
+
 @media (max-width: 500px) {
 
     .bloco1{
-        margin-top: 30px;
+        margin-top: 0px;
     }
     
     #blocos{
@@ -142,6 +177,28 @@ h1{
         display: flex;
         flex-direction: column;
     }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-weight: 550;
+        font-size: 16px;
+    }
+    
+    .rodape img{
+        width: 60px;
+        margin-left: 2px;
+    }
+
+    .texto p{
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 480;
+       
+    }
     
 }
-
