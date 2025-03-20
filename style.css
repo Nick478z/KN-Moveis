@@ -145,6 +145,8 @@ footer{
     margin-top: 40px;
     padding: 5px;
     background-color: #b6933a;
+    border-top: 5px solid;
+    border-color: rgb(143, 131, 100);
 }
 
 .rodape{
@@ -166,7 +168,7 @@ footer{
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
 
     .bloco1{
         margin-top: 0px;
